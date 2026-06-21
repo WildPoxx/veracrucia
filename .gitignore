@@ -12,6 +12,8 @@
 !docs/
 !docs/ai/
 !docs/ai/**
+!docs/project/
+!docs/project/**
 
 !.claude/
 !.claude/skills/
@@ -24,10 +26,10 @@
 .codex/
 01_BIBLIA/
 02_ENREDOS_E_ESTRUTURAS/
-03_CAPÍTULOS_E_CENAS/
+03_CAPITULOS_E_CENAS/
 04_DIRETRIZES_IA/
 05_SUPORTE_DE_PROJETO/
-06_REFERÊNCIAS/
+06_REFERENCIAS/
 _templates/
 
 # Sensitive and generated material.

@@ -1,10 +1,10 @@
 # Project Knowledge Coverage - Veracrucia
 
-Este arquivo registra o que deve estar visível para Claude via GitHub e o que depende do vault local de escrita.
+Este arquivo registra o que deve estar visivel para Claude via GitHub e o que depende do vault local de escrita.
 
-## Repositório GitHub
+## Repositorio GitHub
 
-Repositório:
+Repositorio:
 
 ```text
 WildPoxx/veracrucia
@@ -16,13 +16,15 @@ Visibilidade:
 public
 ```
 
-Arquivos esperados no repositório:
+Arquivos esperados no repositorio:
 
 - `README.md`
 - `AI_COLLABORATION.md`
 - `CLAUDE.md`
 - `docs/ai/CLAUDE_SKILLS_INDEX.md`
 - `docs/ai/PROJECT_KNOWLEDGE_COVERAGE.md`
+- `docs/ai/VERACRUCIA_PRIVATE_CONTEXT_PACKAGE.md`
+- `docs/project/VERACRUCIA_PUBLIC_BIBLE.md`
 - `.claude/skills/veracrucia-authorial-style/SKILL.md`
 - `.claude/skills/veracrucia-scene-planner/SKILL.md`
 - `.claude/skills/veracrucia-editorial-diagnostics/SKILL.md`
@@ -33,26 +35,30 @@ Arquivos esperados no repositório:
 Raiz local de trabalho:
 
 ```text
-G:\Meu Drive\12. AUTORAL\Veracrúcia
+G:\Meu Drive\12. AUTORAL\Veracrucia
 ```
 
-Pastas autorais e sensíveis ficam fora do Git público por padrão:
+Pastas autorais e sensiveis ficam fora do Git publico por padrao:
 
 - `01_BIBLIA/`
 - `02_ENREDOS_E_ESTRUTURAS/`
-- `03_CAPÍTULOS_E_CENAS/`
+- `03_CAPITULOS_E_CENAS/`
 - `04_DIRETRIZES_IA/`
 - `05_SUPORTE_DE_PROJETO/`
-- `06_REFERÊNCIAS/`
+- `06_REFERENCIAS/`
 - `_templates/`
 - `.obsidian/`
 - `.agents/`
 - `.codex/`
 
-## Regra de interpretação
+## Regra de interpretacao
 
-Se Claude não encontrar capítulos, bíblia, dossiês de estilo ou referências no GitHub, isso não significa ausência de cânone. Significa que o repositório público contém apenas a camada de coordenação e que o material autoral depende de anexos, conexão local, Project Knowledge privado ou instrução direta de Mario.
+Se Claude nao encontrar capitulos, biblia privada, dossies de estilo ou referencias no GitHub, isso nao significa ausencia de canon. Significa que o repositorio publico contem a camada de coordenacao, skills e uma Biblia Publica controlada. O material autoral detalhado depende de anexos, conexao local, Google Drive, Project Knowledge privado ou instrucao direta de Mario.
 
-## Regra de segurança
+## Contexto privado recomendado
 
-Antes de adicionar qualquer arquivo do vault ao Git, verificar se ele pode ser público. Na dúvida, não adicionar.
+O arquivo `docs/ai/VERACRUCIA_PRIVATE_CONTEXT_PACKAGE.md` define quais pastas e documentos do vault privado devem ser conectados ao Claude quando Mario quiser trabalho canonico mais profundo.
+
+## Regra de seguranca
+
+Antes de adicionar qualquer arquivo do vault ao Git, verificar se ele pode ser publico. Na duvida, nao adicionar.
