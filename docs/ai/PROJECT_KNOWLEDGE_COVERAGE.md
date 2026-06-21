@@ -29,6 +29,7 @@ Arquivos esperados no repositorio:
 - `.claude/skills/veracrucia-scene-planner/SKILL.md`
 - `.claude/skills/veracrucia-editorial-diagnostics/SKILL.md`
 - `.claude/skills/veracrucia-reference-decoupage/SKILL.md`
+- `.claude/skills/veracrucia-context-router/SKILL.md`
 
 ## Vault local
 
@@ -62,3 +63,4 @@ O arquivo `docs/ai/VERACRUCIA_PRIVATE_CONTEXT_PACKAGE.md` define quais pastas e 
 ## Regra de seguranca
 
 Antes de adicionar qualquer arquivo do vault ao Git, verificar se ele pode ser publico. Na duvida, nao adicionar.
+
