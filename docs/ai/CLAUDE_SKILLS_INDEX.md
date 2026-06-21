@@ -62,12 +62,12 @@ Arquivo:
 .claude/skills/veracrucia-context-router/SKILL.md
 ```
 
-Use antes de tarefas que dependam de canon, busca de fonte, conectores, estado atual do projeto, arquivos anexados, GitHub, Google Drive, Project Knowledge ou conflito entre materiais. Esta skill decide de onde o contexto deve vir; as outras skills decidem como trabalhar com ele.
+Use antes de tarefas que dependam de canon, busca de fonte, conectores, estado atual do projeto, arquivos anexados, workspace local `C:\Users\amari\source\Veracrucia`, GitHub, Google Drive, Project Knowledge ou conflito entre materiais. Esta skill decide de onde o contexto deve vir; as outras skills decidem como trabalhar com ele.
 
 ## Combinacoes frequentes
 
 - Planejar cena e depois escrever: `veracrucia-scene-planner` primeiro, `veracrucia-authorial-style` depois.
 - Avaliar uma cena ja escrita: `veracrucia-editorial-diagnostics`; se o problema for voz ou prosa, combinar com `veracrucia-authorial-style`.
 - Estudar um autor para incorporar tecnica: `veracrucia-reference-decoupage`; so depois converter em regra de cena ou estilo.
-- Qualquer tarefa com canon, Drive, GitHub ou anexos: `veracrucia-context-router` primeiro, depois a skill especifica.
+- Qualquer tarefa com canon, workspace local, Drive, GitHub ou anexos: `veracrucia-context-router` primeiro, depois a skill especifica.
 

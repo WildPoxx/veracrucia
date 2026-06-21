@@ -1,6 +1,6 @@
 ---
 name: veracrucia-context-router
-description: Use for Veracrucia tasks that require choosing, checking, or citing the right source of context across GitHub project files, Google Drive/private vault material, attached chat files, Claude project knowledge, and user instructions; especially when the task depends on canon, current project state, repository sync, source precedence, missing files, or whether Claude should search Drive/GitHub before answering.
+description: Use for Veracrucia tasks that require choosing, checking, or citing the right source of context across local workspace C:\Users\amari\source\Veracrucia, GitHub project files, Google Drive/private vault material, attached chat files, Claude project knowledge, and user instructions; especially when the task depends on canon, current project state, repository sync, source precedence, missing files, local filesystem access, or whether Claude should search Drive/GitHub/local files before answering.
 ---
 
 # Veracrucia Context Router
@@ -11,6 +11,7 @@ Use this skill before any Veracrucia task where the answer depends on source sel
 
 The goal is to prevent false canon, stale context, and confusion between:
 
+- local Windows workspace: `C:\Users\amari\source\Veracrucia`;
 - public GitHub coordination files;
 - private Google Drive/vault material;
 - files attached in the current chat;
@@ -23,14 +24,46 @@ Apply this order unless Mario explicitly says otherwise:
 
 1. Mario's direct instruction in the current chat.
 2. Files attached in the current chat for this task.
-3. Current chapter/scene files from the private Drive/vault.
-4. Private Bible files from Drive/vault.
-5. Plot, timeline, continuity, and payoff files from Drive/vault.
-6. Style, voice, and AI guideline files from Drive/vault.
-7. GitHub repo `WildPoxx/veracrucia`, especially `CLAUDE.md`, `AI_COLLABORATION.md`, `docs/ai/`, `docs/project/`, and `.claude/skills/`.
-8. Inference by the assistant, explicitly labeled as inference.
+3. Local workspace files in `C:\Users\amari\source\Veracrucia`, when the Claude surface has local filesystem access.
+4. Current chapter/scene files from the private Drive/vault.
+5. Private Bible files from Drive/vault.
+6. Plot, timeline, continuity, and payoff files from Drive/vault.
+7. Style, voice, and AI guideline files from Drive/vault.
+8. GitHub repo `WildPoxx/veracrucia`, especially `CLAUDE.md`, `AI_COLLABORATION.md`, `docs/ai/`, `docs/project/`, and `.claude/skills/`.
+9. Inference by the assistant, explicitly labeled as inference.
 
 Never treat public GitHub absence as absence of canon.
+
+## Local Workspace Access
+
+Canonical local path on Mario's Windows machine:
+
+```text
+C:\Users\amari\source\Veracrucia
+```
+
+If running in Claude Code or another Claude surface with real local filesystem tools, actively search this path before answering canon-dependent questions.
+
+Recommended local search order:
+
+1. `03_CAPITULOS_E_CENAS/`, or the local accented folder with the same meaning, for current prose.
+2. `01_BIBLIA/` for character, setting, institution, and system canon.
+3. `02_ENREDOS_E_ESTRUTURAS/` for acts, plots, timelines, continuity, and payoffs.
+4. `04_DIRETRIZES_IA/` for style, voice, decoupage, anti-AI, and writing rules.
+5. `05_SUPORTE_DE_PROJETO/` for handoffs, operational context, and support files.
+6. `06_REFERENCIAS/`, or the local accented folder with the same meaning, for reference inventory only when the task asks for references.
+
+Use targeted search first: file names, character names, scene titles, chapter folders, terms like `GLIF`, `Axsoma`, `Eidolon`, `MotoZapp`, `Transcendencia`, `Continuidade`, `Payoff`.
+
+Do not scan the whole vault for small tasks. If a broad search is needed, warn Mario and summarize the scope.
+
+## Claude Surface Limitation
+
+A skill cannot grant filesystem access by itself.
+
+- In Claude web/project chat, use GitHub, Google Drive, project files, and attachments. If local `C:\...` is not accessible, say so and ask Mario to attach/sync the needed files or use Drive.
+- In Claude Code/local sessions, use the local path directly.
+- In Chrome-connected sessions, do not assume Chrome can read arbitrary local files unless Mario explicitly opens or attaches them.
 
 ## Connector Use
 
@@ -44,7 +77,7 @@ Use GitHub for:
 - current public coordination state;
 - repository file sync checks.
 
-Use Google Drive/private context for:
+Use local workspace or Google Drive/private context for:
 
 - chapters and scenes;
 - private Bible;
@@ -54,13 +87,15 @@ Use Google Drive/private context for:
 - style dossiers;
 - reference decoupage and writing guidelines.
 
+Prefer local workspace when available in a local Claude/Codex session. Prefer Google Drive when working in Claude web.
+
 Use attached chat files when Mario has just provided them; they override older project knowledge for that task.
 
 ## Required Opening Check
 
 For substantial tasks, first state briefly:
 
-- **Fonte usada:** GitHub, Drive, anexos, conversa atual, or inference.
+- **Fonte usada:** local workspace, GitHub, Drive, attached files, current chat, or inference.
 - **Status:** read directly, searched but not found, not accessible, or assumed from project rules.
 - **Limite:** what is not available and could change the answer.
 
@@ -104,7 +139,7 @@ This skill decides where context comes from. The other skills decide how to work
 Before answering, ask:
 
 1. Is this a method question, a canon question, or both?
-2. Is the needed source public GitHub, private Drive, attached file, or current instruction?
+2. Is the needed source local workspace, public GitHub, private Drive, attached file, or current instruction?
 3. Do I have direct source access, or am I inferring?
 4. Should I search first?
 5. If I answer now, what could I accidentally invent?

@@ -6,18 +6,18 @@ O pacote em si deve ser fornecido por Project Knowledge privado, Google Drive co
 
 ## Regra Central
 
-O repositorio publico `WildPoxx/veracrucia` contem metodo, skills e uma Biblia Publica controlada. O canon detalhado vive no vault privado:
+O repositorio publico `WildPoxx/veracrucia` contem metodo, skills e uma Biblia Publica controlada. O canon detalhado vive no workspace privado local:
 
 ```text
 C:\Users\amari\source\Veracrucia
 ```
 
-Se Claude tiver acesso ao Google Drive ou a arquivos anexados, deve tratar os arquivos abaixo como fontes canonicas, respeitando a ordem de precedencia.
+Se Claude tiver acesso local ao Windows, deve usar `C:\Users\amari\source\Veracrucia` como raiz canonica local. Se estiver no Claude web, deve usar Google Drive, GitHub, Project Knowledge ou arquivos anexados, porque uma skill nao concede acesso direto ao disco C por si so. Em todos os casos, deve tratar os arquivos abaixo como fontes canonicas, respeitando a ordem de precedencia.
 
 ## Ordem De Precedencia
 
 1. Instrucoes diretas de Mario na conversa atual.
-2. Capitulos/cenas atuais em `03_CAPÍTULOS_E_CENAS/`.
+2. Capitulos/cenas atuais em `03_CAPITULOS_E_CENAS/` ou na pasta local acentuada equivalente.
 3. Biblia privada em `01_BIBLIA/`.
 4. Estruturas de enredo e continuidade em `02_ENREDOS_E_ESTRUTURAS/`.
 5. Diretrizes de estilo e IA em `04_DIRETRIZES_IA/`.
@@ -30,15 +30,15 @@ Para dar contexto forte sem carregar tudo, incluir:
 
 - `01_BIBLIA/index_biblia.md`
 - `01_BIBLIA/01_PERSONAGENS/00_index_personagens_geral.md`
-- `01_BIBLIA/02_LOCAIS_E_CENARIO/America Lusitania/⚙️ Veracrúcia.md`
-- `01_BIBLIA/02_LOCAIS_E_CENARIO/Cidades/🦅 São Vicente — A Cidade do Ferro e do Sal*.md`
-- `02_ENREDOS_E_ESTRUTURAS/03_ESTRUTURA_GERAL_DO_LIVRO/Matriz Crítica dos 3 Atos.md`
-- `02_ENREDOS_E_ESTRUTURAS/06_CONTINUIDADE_E_PAYOFFS/Inventário de Continuidade - Livro 1*.md`
-- `04_DIRETRIZES_IA/DIRETRIZES/Dossiê de Estilo Autoral - Veracrúcia.md`
-- `04_DIRETRIZES_IA/DIRETRIZES/Sistema de Roteamento Estilistico - Core Veracrucia*.md`
-- `04_DIRETRIZES_IA/DIRETRIZES/Matrizes de Voz Gramatical por POV - Veracrucia.md`
-- `04_DIRETRIZES_IA/DIRETRIZES/Engenharia Textual e Anti-Padroes de IA.md`
-- 2 a 4 cenas revisadas e representativas de `03_CAPÍTULOS_E_CENAS/`.
+- arquivo geral de Veracrucia em `01_BIBLIA/02_LOCAIS_E_CENARIO/America Lusitania/`
+- arquivo principal de Sao Vicente em `01_BIBLIA/02_LOCAIS_E_CENARIO/Cidades/`
+- `02_ENREDOS_E_ESTRUTURAS/03_ESTRUTURA_GERAL_DO_LIVRO/Matriz Critica dos 3 Atos.md` ou arquivo equivalente acentuado
+- inventario de continuidade do Livro 1 em `02_ENREDOS_E_ESTRUTURAS/06_CONTINUIDADE_E_PAYOFFS/`
+- dossie de estilo autoral em `04_DIRETRIZES_IA/DIRETRIZES/`
+- sistema de roteamento estilistico em `04_DIRETRIZES_IA/DIRETRIZES/`
+- matrizes de voz gramatical por POV em `04_DIRETRIZES_IA/DIRETRIZES/`
+- engenharia textual e anti-padroes de IA em `04_DIRETRIZES_IA/DIRETRIZES/`
+- 2 a 4 cenas revisadas e representativas de `03_CAPITULOS_E_CENAS/` ou da pasta local acentuada equivalente.
 
 ## Pacote Expandido
 
@@ -58,7 +58,7 @@ Adicionar quando a tarefa exigir continuidade fina:
 Quando o Drive ou Project Knowledge privado estiver conectado, Mario pode usar:
 
 ```text
-Use o repositorio WildPoxx/veracrucia como camada publica de metodo e skills. Use a pasta privada de Veracrucia no Google Drive como fonte canonica. Quando houver conflito, priorize: minhas instrucoes na conversa, cenas atuais, Biblia privada, estruturas de enredo, diretrizes de estilo e so depois a Biblia publica/GitHub. Antes de inventar qualquer fato, procure no material canonico ou marque como inferencia.
+Use o repositorio WildPoxx/veracrucia como camada publica de metodo e skills. Use a pasta privada de Veracrucia no Google Drive como fonte canonica quando estiver no Claude web. Se estiver em Claude Code/local com acesso ao filesystem, use C:\Users\amari\source\Veracrucia como raiz canonica local. Quando houver conflito, priorize: minhas instrucoes na conversa, cenas atuais, Biblia privada, estruturas de enredo, diretrizes de estilo e so depois a Biblia publica/GitHub. Antes de inventar qualquer fato, procure no material canonico ou marque como inferencia.
 ```
 
 ## Cuidados

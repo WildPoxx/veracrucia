@@ -19,7 +19,7 @@ Use `veracrucia-editorial-diagnostics` para parecer critico, diagnostico de capi
 
 Use `veracrucia-reference-decoupage` para analisar autores de referencia como mecanismos formais transferiveis, sem imitar superficie de estilo.
 
-Use `veracrucia-context-router` antes de tarefas que dependam de canon, estado atual do projeto, busca em GitHub/Drive, arquivos anexados, fonte de verdade ou conflito entre materiais.
+Use `veracrucia-context-router` antes de tarefas que dependam de canon, estado atual do projeto, busca local em `C:\Users\amari\source\Veracrucia`, busca em GitHub/Drive, arquivos anexados, fonte de verdade ou conflito entre materiais.
 
 ## Regras permanentes
 
