@@ -1,0 +1,46 @@
+# Public-safe allowlist.
+# This repository is public, so the manuscript vault is ignored by default.
+
+*
+
+!.gitignore
+!.gitattributes
+!README.md
+!AI_COLLABORATION.md
+!CLAUDE.md
+
+!docs/
+!docs/ai/
+!docs/ai/**
+
+!.claude/
+!.claude/skills/
+!.claude/skills/**
+
+# Always keep local/private project material out of public Git unless reviewed.
+.obsidian/
+.trash/
+.agents/
+.codex/
+01_BIBLIA/
+02_ENREDOS_E_ESTRUTURAS/
+03_CAPÍTULOS_E_CENAS/
+04_DIRETRIZES_IA/
+05_SUPORTE_DE_PROJETO/
+06_REFERÊNCIAS/
+_templates/
+
+# Sensitive and generated material.
+.env
+.env.*
+*.pdf
+*.epub
+*.mobi
+*.doc
+*.docx
+*.zip
+*.7z
+*.rar
+*.bak
+*.tmp
+desktop.ini
