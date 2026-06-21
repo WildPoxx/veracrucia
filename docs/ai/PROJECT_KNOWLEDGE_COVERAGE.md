@@ -36,7 +36,7 @@ Arquivos esperados no repositorio:
 Raiz local de trabalho:
 
 ```text
-G:\Meu Drive\12. AUTORAL\Veracrucia
+C:\Users\amari\source\Veracrucia
 ```
 
 Pastas autorais e sensiveis ficam fora do Git publico por padrao:

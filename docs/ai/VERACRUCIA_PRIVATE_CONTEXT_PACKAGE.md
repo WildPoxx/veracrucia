@@ -1,4 +1,4 @@
-﻿# Veracrucia Private Context Package
+# Veracrucia Private Context Package
 
 Este documento define o pacote privado recomendado para dar ao Claude acesso canonico amplo sem publicar o corpus completo no GitHub.
 
@@ -9,7 +9,7 @@ O pacote em si deve ser fornecido por Project Knowledge privado, Google Drive co
 O repositorio publico `WildPoxx/veracrucia` contem metodo, skills e uma Biblia Publica controlada. O canon detalhado vive no vault privado:
 
 ```text
-G:\Meu Drive\12. AUTORAL\Veracrúcia
+C:\Users\amari\source\Veracrucia
 ```
 
 Se Claude tiver acesso ao Google Drive ou a arquivos anexados, deve tratar os arquivos abaixo como fontes canonicas, respeitando a ordem de precedencia.
