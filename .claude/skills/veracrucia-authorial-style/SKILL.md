@@ -81,6 +81,12 @@ Before delivering prose, remove or repair:
 - direct speech that only transfers information;
 - protagonist explanations that expose the planning scaffold.
 
+## Repetition Control
+
+Use `veracrucia-repetition-control` for substantial scene revisions, chapter passes, or any passage with salient phrasing, enumerations, metaphors, names, one-liners, or rhetorical contrast. Check whether expressive solutions repeat literal phrases, sentence structures, images, names, cadences, or functional moves from nearby scenes or other POVs.
+
+Treat repeated structures as style risks, not only wording risks. A sentence can be new in vocabulary and still repeat an AI pattern, such as an institutional list followed by an affective list, a city-versus-body metaphor, or a neat antithesis that summarizes what the scene already dramatizes.
+
 ## Veracrucia Text Conventions
 
 - Use `Henrique`, `Miguel`, `Jackie`, `Augusto`, not `o Henrique`, `o Miguel`, `a Jackie`, `o Augusto`, unless deliberate character speech requires it.
@@ -102,3 +108,4 @@ Ask before finalizing:
 5. Does each poetic sentence communicate mood, body, environment, action, memory, relationship, perception or tension?
 6. Did the scene follow Enquadrar, Encarnar, Encadear, Ecoar?
 7. Did speech follow Voz, Valor, Vetor, Volume?
+8. Did any phrase, name, image, rhythm or rhetorical structure recur because it is necessary, rather than because the model reused a familiar solution?

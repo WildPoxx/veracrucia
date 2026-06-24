@@ -1,4 +1,4 @@
-# Claude Entry Point - Veracrucia
+# Codex Entry Point - Veracrucia
 
 Antes de responder em nivel de projeto, leia:
 

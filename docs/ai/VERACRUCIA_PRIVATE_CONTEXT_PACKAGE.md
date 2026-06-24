@@ -24,6 +24,8 @@ Se Claude tiver acesso local ao Windows, deve usar `C:\Users\amari\source\Veracr
 6. Skills e docs publicos do GitHub.
 7. Inferencias do assistente, sempre marcadas como inferencias.
 
+Handoffs recentes de Mario, Codex/local ou outra sessao autorizada contam como instrucoes diretas quando registram decisao posterior aos arquivos locais. Use-os para corrigir scaffolds antigos, mas nao publique no Git detalhes de manuscrito, estrutura fina de capitulos ou material sensivel.
+
 ## Pacote Minimo Recomendado
 
 Para dar contexto forte sem carregar tudo, incluir:

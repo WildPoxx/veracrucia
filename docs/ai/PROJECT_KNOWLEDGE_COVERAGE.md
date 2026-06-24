@@ -21,6 +21,7 @@ Arquivos esperados no repositorio:
 - `README.md`
 - `AI_COLLABORATION.md`
 - `CLAUDE.md`
+- `AGENTS.md`
 - `docs/ai/CLAUDE_SKILLS_INDEX.md`
 - `docs/ai/PROJECT_KNOWLEDGE_COVERAGE.md`
 - `docs/ai/VERACRUCIA_PRIVATE_CONTEXT_PACKAGE.md`
@@ -30,6 +31,7 @@ Arquivos esperados no repositorio:
 - `.claude/skills/veracrucia-editorial-diagnostics/SKILL.md`
 - `.claude/skills/veracrucia-reference-decoupage/SKILL.md`
 - `.claude/skills/veracrucia-context-router/SKILL.md`
+- `.claude/skills/veracrucia-repetition-control/SKILL.md`
 
 ## Vault local
 

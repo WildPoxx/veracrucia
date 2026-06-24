@@ -64,10 +64,21 @@ Arquivo:
 
 Use antes de tarefas que dependam de canon, busca de fonte, conectores, estado atual do projeto, arquivos anexados, workspace local `C:\Users\amari\source\Veracrucia`, GitHub, Google Drive, Project Knowledge ou conflito entre materiais. Esta skill decide de onde o contexto deve vir; as outras skills decidem como trabalhar com ele.
 
+### veracrucia-repetition-control
+
+Arquivo:
+
+```text
+.claude/skills/veracrucia-repetition-control/SKILL.md
+```
+
+Use para detectar e corrigir repeticoes literais, estruturas frasais recorrentes, movimentos retoricos repetidos, nomes reaproveitados, imagens/cadencias recorrentes e padroes estatisticos de LLM que parecem estilo mas enfraquecem a diferenca entre cenas, capitulos ou POVs.
+
 ## Combinacoes frequentes
 
 - Planejar cena e depois escrever: `veracrucia-scene-planner` primeiro, `veracrucia-authorial-style` depois.
 - Avaliar uma cena ja escrita: `veracrucia-editorial-diagnostics`; se o problema for voz ou prosa, combinar com `veracrucia-authorial-style`.
 - Estudar um autor para incorporar tecnica: `veracrucia-reference-decoupage`; so depois converter em regra de cena ou estilo.
 - Qualquer tarefa com canon, workspace local, Drive, GitHub ou anexos: `veracrucia-context-router` primeiro, depois a skill especifica.
+- Revisar cena com risco de repeticao de frase, estrutura, imagem, nome ou cadencia: combinar `veracrucia-authorial-style` ou `veracrucia-editorial-diagnostics` com `veracrucia-repetition-control`.
 

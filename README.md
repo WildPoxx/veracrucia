@@ -19,6 +19,7 @@ O conteúdo público deste repositório deve orientar o trabalho sem expor o cor
 
 - `AI_COLLABORATION.md`: postura, limites criativos e regras de colaboração com IA.
 - `CLAUDE.md`: ponto de entrada para Claude.
+- `AGENTS.md`: ponto de entrada para Codex e outros agentes locais.
 - `docs/ai/CLAUDE_SKILLS_INDEX.md`: espelho visível das skills do projeto.
 - `docs/ai/PROJECT_KNOWLEDGE_COVERAGE.md`: o que Claude deve enxergar pelo GitHub e o que depende do vault local.
 - `.claude/skills/`: skills executáveis para Claude Code.

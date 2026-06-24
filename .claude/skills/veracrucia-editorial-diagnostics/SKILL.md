@@ -11,6 +11,8 @@ Use this skill to evaluate Veracrúcia prose as literature and as a working manu
 
 Use `veracrucia-authorial-style` as the target style specification when voice, prose or anti-AI issues matter.
 
+Use `veracrucia-repetition-control` when evaluating AI-assisted drafts, chapter continuity, POV distinction, salient phrasing, repeated names, repeated images, repeated sentence structures, or suspected model-statistical recurrence across scenes.
+
 ## Critical Contract
 
 Before evaluating, infer or state the scope:
@@ -64,6 +66,7 @@ Use the relevant axes:
 - theme, subtext and ideological mechanics;
 - genre/worldbuilding/paranormal rules;
 - continuity and canon;
+- repetition across scenes, POVs, motifs, names, images and rhetorical structures;
 - originality, memorability and afterimage.
 
 ## Quality Labels
@@ -100,6 +103,7 @@ Check:
 - no false poeticity;
 - no direct speech bloat;
 - POV grammar matching the focal character.
+- no false recurrence from LLM shortcut patterns: literal repetition, structural repetition, functional repetition, repeated names, repeated images or repeated cadences.
 
 ## Output Formats
 

@@ -40,6 +40,8 @@ Quando não houver base suficiente, marque a incerteza. Não invente cânone par
 - Preferir hífen espaçado ` - ` para incisos quando necessário.
 - Evitar travessão longo em prosa narrativa.
 - Evitar frases isoladas curtas como vício de ênfase; manter one-liners raros e funcionais.
+- Tratar repetição estrutural como problema editorial: enumerações automáticas, cadências de IA, antíteses fáceis, listas do tipo `X era A, B, C e D`, metáforas reaproveitadas e soluções expressivas repetidas entre POVs devem ser revisadas pelo núcleo de informação concreta.
+- Quando houver handoff recente com decisão autoral posterior aos arquivos, usar o handoff como fonte superior para corrigir scaffolds antigos, sem publicar no Git detalhes de manuscrito, estrutura fina de capítulos ou material sensível.
 
 ## Limite de exposição
 
