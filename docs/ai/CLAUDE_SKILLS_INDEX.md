@@ -76,6 +76,7 @@ Use para detectar e corrigir repeticoes literais, estruturas frasais recorrentes
 
 ## Combinacoes frequentes
 
+- Sinopse prévia de capítulo antes da escrita: usar `veracrucia-context-router` para fonte e precedência, `veracrucia-scene-planner` para organizar função/cenas/PPP, `veracrucia-editorial-diagnostics` para ritmo/continuidade, `veracrucia-repetition-control` para padrões de repetição, e aplicar `docs/ai/REGRAS_DOS_4_4C_4E_4V.md`.
 - Planejar cena e depois escrever: `veracrucia-scene-planner` primeiro, `veracrucia-authorial-style` depois.
 - Avaliar uma cena ja escrita: `veracrucia-editorial-diagnostics`; se o problema for voz ou prosa, combinar com `veracrucia-authorial-style`.
 - Estudar um autor para incorporar tecnica: `veracrucia-reference-decoupage`; so depois converter em regra de cena ou estilo.

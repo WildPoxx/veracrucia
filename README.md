@@ -21,6 +21,7 @@ O conteúdo público deste repositório deve orientar o trabalho sem expor o cor
 - `CLAUDE.md`: ponto de entrada para Claude.
 - `AGENTS.md`: ponto de entrada para Codex e outros agentes locais.
 - `docs/ai/CLAUDE_SKILLS_INDEX.md`: espelho visível das skills do projeto.
+- `docs/ai/REGRAS_DOS_4_4C_4E_4V.md`: régua de planejamento e revisão por 4C, 4E e 4V.
 - `docs/ai/PROJECT_KNOWLEDGE_COVERAGE.md`: o que Claude deve enxergar pelo GitHub e o que depende do vault local.
 - `.claude/skills/`: skills executáveis para Claude Code.
 

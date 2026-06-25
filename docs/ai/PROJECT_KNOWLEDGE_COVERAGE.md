@@ -23,6 +23,7 @@ Arquivos esperados no repositorio:
 - `CLAUDE.md`
 - `AGENTS.md`
 - `docs/ai/CLAUDE_SKILLS_INDEX.md`
+- `docs/ai/REGRAS_DOS_4_4C_4E_4V.md`
 - `docs/ai/PROJECT_KNOWLEDGE_COVERAGE.md`
 - `docs/ai/VERACRUCIA_PRIVATE_CONTEXT_PACKAGE.md`
 - `docs/project/VERACRUCIA_PUBLIC_BIBLE.md`
